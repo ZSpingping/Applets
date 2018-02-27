@@ -1,0 +1,8 @@
+.Avatar>image{
+  width:93px;
+  height:93px;
+}
+.Avatar{
+  text-align: center;
+  padding:40px 0;
+}

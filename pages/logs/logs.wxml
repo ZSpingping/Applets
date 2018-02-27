@@ -1,0 +1,16 @@
+<view class="classname">
+    <view class="Avatar">
+        <image src="../../images/user.png"></image>
+    </view>
+    <view class="classname">
+        <view class="classname">
+            <text>邮箱:{{mailbox}}</text>
+        </view>
+        <view class="classname" bindtap="Call">
+            <text>联系方式:{{phone}}</text>
+        </view>
+        <view class="classname">
+            <text>GitHub:{{github}}</text>
+        </view>
+    </view>
+</view>

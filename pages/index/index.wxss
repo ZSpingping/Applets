@@ -1,0 +1,95 @@
+/**index.wxss**/
+.contaibox{
+  background:url(http://www.zengdexing.cn/images/counter-bg.jpg);
+  background-size:cover;
+  padding:140px 0;
+  background-attachment:fixed;
+}
+.contaihead{
+  text-align: center;
+  color:#fff;
+  overflow:hidden;
+  background:rgba(0,0,0,0.7);
+  padding:10px 0;
+  line-height: 24px;
+}
+/*.contaihead>view{
+  width:50%;
+  float:left;
+}*/
+.contaiheadleft>image{
+  width:160px;
+  height:160px;
+}
+.contaiheadright>text:nth-child(1){
+  font-size:20px;
+}
+.contaiheadright>text:nth-child(2){
+  color:green;
+  font-size:16px;
+  text-align: left;
+}
+.contaiheadright>text{
+  font-size:14px;
+}
+.contaihead>view:nth-child(2){
+  padding:10px 0;
+}
+
+
+.professionaltitle{
+  width:90%;
+  margin:0 auto;
+  color:rgb(0, 128, 128);
+  padding:10px 0;
+  border-bottom:1px solid #dadada;
+  position:relative;
+}
+.professionaltitle>view{
+  position:absolute;
+  width:90px;
+  height:3px;
+  background:rgb(0, 128, 128);
+  bottom:-2px;
+}
+.professionallist{
+  font-size:14px;
+  text-align: center;
+  line-height: 18px;
+  padding:20px 0;
+}
+.professionallist>swiper{
+  background:url(http://www.zengdexing.cn/images/3.png);
+  height:200px;
+}
+.professionala{
+  background-image: url(http://www.zengdexing.cn/images/16.png);
+}
+.professionallist>text{
+  padding:6px 0;
+  display:block;
+}
+.professionalhttp{
+  color:blue;
+  font-size:16px;
+}
+.professionallist>image{
+  width:200px;
+  height:200px;
+  display: inlie-block;
+  margin:0 auto;
+}
+
+.slide-image>view:nth-child(1){
+  font-size:20px;
+  font-weight:500;
+  color:#000;
+}
+.slide-image>view:nth-child(2){
+  font-size:12px;
+  color:#000;
+}
+.slide-image>view{
+  line-height: 24px;
+  color:#bd791a;
+}

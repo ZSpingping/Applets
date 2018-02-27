@@ -1,0 +1,93 @@
+<!--index.wxml-->
+<view class="container">
+    <view class="contaibox">
+      <view class="contaihead">     
+        <view class="contaiheadleft">
+          <image src="../../images/user.png"></image>    
+        </view>
+        <view class="contaiheadright">
+          <text>您好!我叫***</text>    
+          <text>
+          个人介绍</text>
+          <text>
+          热爱前端，追求用更扎实的代码技术做出更好的功能、效果。</text>
+          <text>
+          有较强的自学能力，能够通过各种方法解决问题。</text>
+          <text>
+          具备规范的代码编写风格、有自己的逻辑思维与思想。</text>             
+        </view>
+      </view>
+    </view>
+    <view class="professional">
+      <view class="professionaltitle">
+        <text>专业技能</text>
+        <view class="classname"></view>
+      </view>
+      <view class="professionallist">
+          <text>熟练使用HTML,CSS+DIV网站重构、优化。
+          </text>
+          <text>掌握HTML5和CSS3的新特性并应用开发。
+          </text>
+          <text>熟练使用firebug,Chrome调试工作调试代码，并进一步优化。
+          </text>
+          <text>熟练使用javascript、Ajax、jQuery、zepto等web开发技术。
+          </text>
+          <text>熟练使用百度地图API接口使用。
+          </text>
+          <text>熟练使用bootstrap快速布局页面。
+          </text>
+          <text>熟悉使用git,svn版本控制工具。
+          </text>
+          <text>熟悉vue,webpack等。
+          </text>
+          <text>掌握微信开发、JS-SDK。
+          </text>
+          <text>熟悉小程序开发，wxml,wxss等。
+          </text>
+          <image src="../../images/liantu.png"></image>
+          <text class="professionalhttp">个人主页网址：http://www.zengdexing.cn</text>
+      </view>
+    </view>
+
+    <view class="professionala">
+      <view class="professionaltitle">
+        <text>工作经验</text>
+        <view class="classname"></view>
+      </view>
+      <view class="professionallist">
+          <swiper
+            autoplay="true" circular="true" interval="3000" duration="500">
+            <block wx:for-items="{{imgUrls}}" wx:key="imgUrls">
+              <swiper-item>
+                <view class="slide-image">
+                  <view class="classname">
+                    <text>{{item.id}}</text>
+                  </view>
+                  <view class="classname">
+                    <text>{{item.time}}</text>
+                  </view>
+                  <view class="classname">
+                    <text>{{item.bumen}}</text>
+                  </view>
+                  <view class="classname">
+                    <text>{{item.jinenga}}</text>
+                  </view>
+                  <view class="classname">
+                    <text>{{item.jinengb}}</text>
+                  </view>
+                  <view class="classname">
+                    <text>{{item.jinengc}}</text>
+                  </view>
+                  <view class="classname">
+                    <text>{{item.jinengd}}</text>
+                  </view>
+                  <view class="classname">
+                    <text>{{item.jinenge}}</text>
+                  </view>
+                </view>
+              </swiper-item>
+            </block>
+          </swiper>
+      </view>
+    </view>
+</view>
